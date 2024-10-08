@@ -7,5 +7,7 @@ namespace Api.Day1.Controllers
     [ApiController]
     public class AnswersController : ControllerBase
     {
+        public int MyProperty { get; set; }
+        public AnswersController() { }
     }
 }
