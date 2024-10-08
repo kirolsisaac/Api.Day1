@@ -1,0 +1,34 @@
+﻿Uniform interface
+
+Entity  => Employee
+
+//Get All
+
+Get : /api/Employees
+
+//Get By id
+
+Get : /api/Employees/{id}
+
+//Add 
+
+Post : /api/Employees
+Body : {
+"Name":"ahmed",
+"Age":25,
+"Salary":5000
+}
+
+//Edit
+
+Put : /api/Employees/{id}
+Body:{
+"Id":5,
+"Name":"khalid",
+"Age":26,
+"Salary":4000
+}
+
+//Delete
+
+Delete : /api/Employees/{id}
